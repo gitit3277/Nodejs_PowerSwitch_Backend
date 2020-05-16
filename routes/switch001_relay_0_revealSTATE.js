@@ -1,6 +1,13 @@
 var express = require("express");
 var router = express.Router();
 
+//console.log(parameter_1);
+
+//module.exports = function(client){
+
+  //  console.log("ba");  
+   
+  // }
 
 
 try {

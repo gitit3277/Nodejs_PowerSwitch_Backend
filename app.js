@@ -22,39 +22,44 @@ var usersRouter = require('./routes/users');
 //import the javascript file and give it a name 
 //////////////////////////////
 
-testAPIRouter=require("./routes/testAPI");
+var testAPIRouter=require("./routes/testAPI");
 
-relay_0_OFF_APIRouter=require("./routes/relay_0_turnOFF");
-relay_0_ON_APIRouter=require("./routes/relay_0_turnON");
-relay_0_CheckStatus=require("./routes/relay_0_revealSTATE");
 
-relay_1_OFF_APIRouter=require("./routes/relay_1_turnOFF");
-relay_1_ON_APIRouter=require("./routes/relay_1_turnON");
-relay_1_CheckStatus=require("./routes/relay_1_revealSTATE");
 
-relay_2_OFF_APIRouter=require("./routes/relay_2_turnOFF");
-relay_2_ON_APIRouter=require("./routes/relay_2_turnON");
-relay_2_CheckStatus=require("./routes/relay_2_revealSTATE");
+relay_0_OFF_APIRouter=require("./routes/switch001_relay_0_turnOFF");
+relay_0_ON_APIRouter=require("./routes/switch001_relay_0_turnON");
+relay_0_CheckStatus=require("./routes/switch001_relay_0_revealSTATE");
 
-relay_3_OFF_APIRouter=require("./routes/relay_3_turnOFF");
-relay_3_ON_APIRouter=require("./routes/relay_3_turnON");
-relay_3_CheckStatus=require("./routes/relay_3_revealSTATE");
 
-relay_4_OFF_APIRouter=require("./routes/relay_4_turnOFF");
-relay_4_ON_APIRouter=require("./routes/relay_4_turnON");
-relay_4_CheckStatus=require("./routes/relay_4_revealSTATE");
+//relay_0_CheckStatus=require("./routes/relay_0_revealSTATE")(parameter_1);
 
-relay_5_OFF_APIRouter=require("./routes/relay_5_turnOFF");
-relay_5_ON_APIRouter=require("./routes/relay_5_turnON");
-relay_5_CheckStatus=require("./routes/relay_5_revealSTATE");
+relay_1_OFF_APIRouter=require("./routes/switch001_relay_1_turnOFF");
+relay_1_ON_APIRouter=require("./routes/switch001_relay_1_turnON");
+relay_1_CheckStatus=require("./routes/switch001_relay_1_revealSTATE");
 
-relay_6_OFF_APIRouter=require("./routes/relay_6_turnOFF");
-relay_6_ON_APIRouter=require("./routes/relay_6_turnON");
-relay_6_CheckStatus=require("./routes/relay_6_revealSTATE");
+relay_2_OFF_APIRouter=require("./routes/switch001_relay_2_turnOFF");
+relay_2_ON_APIRouter=require("./routes/switch001_relay_2_turnON");
+relay_2_CheckStatus=require("./routes/switch001_relay_2_revealSTATE");
 
-relay_7_OFF_APIRouter=require("./routes/relay_7_turnOFF");
-relay_7_ON_APIRouter=require("./routes/relay_7_turnON");
-relay_7_CheckStatus=require("./routes/relay_7_revealSTATE");
+relay_3_OFF_APIRouter=require("./routes/switch001_relay_3_turnOFF");
+relay_3_ON_APIRouter=require("./routes/switch001_relay_3_turnON");
+relay_3_CheckStatus=require("./routes/switch001_relay_3_revealSTATE");
+
+relay_4_OFF_APIRouter=require("./routes/switch001_relay_4_turnOFF");
+relay_4_ON_APIRouter=require("./routes/switch001_relay_4_turnON");
+relay_4_CheckStatus=require("./routes/switch001_relay_4_revealSTATE");
+
+relay_5_OFF_APIRouter=require("./routes/switch001_relay_5_turnOFF");
+relay_5_ON_APIRouter=require("./routes/switch001_relay_5_turnON");
+relay_5_CheckStatus=require("./routes/switch001_relay_5_revealSTATE");
+
+relay_6_OFF_APIRouter=require("./routes/switch001_relay_6_turnOFF");
+relay_6_ON_APIRouter=require("./routes/switch001_relay_6_turnON");
+relay_6_CheckStatus=require("./routes/switch001_relay_6_revealSTATE");
+
+relay_7_OFF_APIRouter=require("./routes/switch001_relay_7_turnOFF");
+relay_7_ON_APIRouter=require("./routes/switch001_relay_7_turnON");
+relay_7_CheckStatus=require("./routes/switch001_relay_7_revealSTATE");
 
 ////////////////////////////////
 
