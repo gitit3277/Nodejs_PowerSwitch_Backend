@@ -26,40 +26,40 @@ var testAPIRouter=require("./routes/testAPI");
 
 
 
-relay_0_OFF_APIRouter=require("./routes/switch001_relay_0_turnOFF");
-relay_0_ON_APIRouter=require("./routes/switch001_relay_0_turnON");
-relay_0_CheckStatus=require("./routes/switch001_relay_0_revealSTATE");
+switch001_relay_0_OFF_APIRouter=require("./routes/switch001_relay_0_turnOFF");
+switch001_relay_0_ON_APIRouter=require("./routes/switch001_relay_0_turnON");
+switch001_relay_0_CheckStatus=require("./routes/switch001_relay_0_revealSTATE");
 
 
-//relay_0_CheckStatus=require("./routes/relay_0_revealSTATE")(parameter_1);
+//switch001_relay_0_CheckStatus=require("./routes/switch001_relay_0_revealSTATE")(parameter_1);
 
-relay_1_OFF_APIRouter=require("./routes/switch001_relay_1_turnOFF");
-relay_1_ON_APIRouter=require("./routes/switch001_relay_1_turnON");
-relay_1_CheckStatus=require("./routes/switch001_relay_1_revealSTATE");
+switch001_relay_1_OFF_APIRouter=require("./routes/switch001_relay_1_turnOFF");
+switch001_relay_1_ON_APIRouter=require("./routes/switch001_relay_1_turnON");
+switch001_relay_1_CheckStatus=require("./routes/switch001_relay_1_revealSTATE");
 
-relay_2_OFF_APIRouter=require("./routes/switch001_relay_2_turnOFF");
-relay_2_ON_APIRouter=require("./routes/switch001_relay_2_turnON");
-relay_2_CheckStatus=require("./routes/switch001_relay_2_revealSTATE");
+switch001_relay_2_OFF_APIRouter=require("./routes/switch001_relay_2_turnOFF");
+switch001_relay_2_ON_APIRouter=require("./routes/switch001_relay_2_turnON");
+switch001_relay_2_CheckStatus=require("./routes/switch001_relay_2_revealSTATE");
 
-relay_3_OFF_APIRouter=require("./routes/switch001_relay_3_turnOFF");
-relay_3_ON_APIRouter=require("./routes/switch001_relay_3_turnON");
-relay_3_CheckStatus=require("./routes/switch001_relay_3_revealSTATE");
+switch001_relay_3_OFF_APIRouter=require("./routes/switch001_relay_3_turnOFF");
+switch001_relay_3_ON_APIRouter=require("./routes/switch001_relay_3_turnON");
+switch001_relay_3_CheckStatus=require("./routes/switch001_relay_3_revealSTATE");
 
-relay_4_OFF_APIRouter=require("./routes/switch001_relay_4_turnOFF");
-relay_4_ON_APIRouter=require("./routes/switch001_relay_4_turnON");
-relay_4_CheckStatus=require("./routes/switch001_relay_4_revealSTATE");
+switch001_relay_4_OFF_APIRouter=require("./routes/switch001_relay_4_turnOFF");
+switch001_relay_4_ON_APIRouter=require("./routes/switch001_relay_4_turnON");
+switch001_relay_4_CheckStatus=require("./routes/switch001_relay_4_revealSTATE");
 
-relay_5_OFF_APIRouter=require("./routes/switch001_relay_5_turnOFF");
-relay_5_ON_APIRouter=require("./routes/switch001_relay_5_turnON");
-relay_5_CheckStatus=require("./routes/switch001_relay_5_revealSTATE");
+switch001_relay_5_OFF_APIRouter=require("./routes/switch001_relay_5_turnOFF");
+switch001_relay_5_ON_APIRouter=require("./routes/switch001_relay_5_turnON");
+switch001_relay_5_CheckStatus=require("./routes/switch001_relay_5_revealSTATE");
 
-relay_6_OFF_APIRouter=require("./routes/switch001_relay_6_turnOFF");
-relay_6_ON_APIRouter=require("./routes/switch001_relay_6_turnON");
-relay_6_CheckStatus=require("./routes/switch001_relay_6_revealSTATE");
+switch001_relay_6_OFF_APIRouter=require("./routes/switch001_relay_6_turnOFF");
+switch001_relay_6_ON_APIRouter=require("./routes/switch001_relay_6_turnON");
+switch001_relay_6_CheckStatus=require("./routes/switch001_relay_6_revealSTATE");
 
-relay_7_OFF_APIRouter=require("./routes/switch001_relay_7_turnOFF");
-relay_7_ON_APIRouter=require("./routes/switch001_relay_7_turnON");
-relay_7_CheckStatus=require("./routes/switch001_relay_7_revealSTATE");
+switch001_relay_7_OFF_APIRouter=require("./routes/switch001_relay_7_turnOFF");
+switch001_relay_7_ON_APIRouter=require("./routes/switch001_relay_7_turnON");
+switch001_relay_7_CheckStatus=require("./routes/switch001_relay_7_revealSTATE");
 
 ////////////////////////////////
 
@@ -100,37 +100,37 @@ app.use('/users', usersRouter);
 
 app.use("/testAPI",testAPIRouter);
 
-app.use("/relay_0_turnON",relay_0_ON_APIRouter);
-app.use("/relay_0_turnOFF",relay_0_OFF_APIRouter);  
-app.use("/relay_0_CheckStatus",relay_0_CheckStatus);
+app.use("/switch001_relay_0_turnON",switch001_relay_0_ON_APIRouter);
+app.use("/switch001_relay_0_turnOFF",switch001_relay_0_OFF_APIRouter);  
+app.use("/switch001_relay_0_CheckStatus",switch001_relay_0_CheckStatus);
 
-app.use("/relay_1_turnON",relay_1_ON_APIRouter);
-app.use("/relay_1_turnOFF",relay_1_OFF_APIRouter);  
-app.use("/relay_1_CheckStatus",relay_1_CheckStatus);
+app.use("/switch001_relay_1_turnON",switch001_relay_1_ON_APIRouter);
+app.use("/switch001_relay_1_turnOFF",switch001_relay_1_OFF_APIRouter);  
+app.use("/switch001_relay_1_CheckStatus",switch001_relay_1_CheckStatus);
 
-app.use("/relay_2_turnON",relay_2_ON_APIRouter);
-app.use("/relay_2_turnOFF",relay_2_OFF_APIRouter);  
-app.use("/relay_2_CheckStatus",relay_2_CheckStatus);
+app.use("/switch001_relay_2_turnON",switch001_relay_2_ON_APIRouter);
+app.use("/switch001_relay_2_turnOFF",switch001_relay_2_OFF_APIRouter);  
+app.use("/switch001_relay_2_CheckStatus",switch001_relay_2_CheckStatus);
 
-app.use("/relay_3_turnON",relay_3_ON_APIRouter);
-app.use("/relay_3_turnOFF",relay_3_OFF_APIRouter);  
-app.use("/relay_3_CheckStatus",relay_3_CheckStatus);
+app.use("/switch001_relay_3_turnON",switch001_relay_3_ON_APIRouter);
+app.use("/switch001_relay_3_turnOFF",switch001_relay_3_OFF_APIRouter);  
+app.use("/switch001_relay_3_CheckStatus",switch001_relay_3_CheckStatus);
 
-app.use("/relay_4_turnON",relay_4_ON_APIRouter);
-app.use("/relay_4_turnOFF",relay_4_OFF_APIRouter);  
-app.use("/relay_4_CheckStatus",relay_4_CheckStatus);
+app.use("/switch001_relay_4_turnON",switch001_relay_4_ON_APIRouter);
+app.use("/switch001_relay_4_turnOFF",switch001_relay_4_OFF_APIRouter);  
+app.use("/switch001_relay_4_CheckStatus",switch001_relay_4_CheckStatus);
 
-app.use("/relay_5_turnON",relay_5_ON_APIRouter);
-app.use("/relay_5_turnOFF",relay_5_OFF_APIRouter);  
-app.use("/relay_5_CheckStatus",relay_5_CheckStatus);
+app.use("/switch001_relay_5_turnON",switch001_relay_5_ON_APIRouter);
+app.use("/switch001_relay_5_turnOFF",switch001_relay_5_OFF_APIRouter);  
+app.use("/switch001_relay_5_CheckStatus",switch001_relay_5_CheckStatus);
 
-app.use("/relay_6_turnON",relay_6_ON_APIRouter);
-app.use("/relay_6_turnOFF",relay_6_OFF_APIRouter);  
-app.use("/relay_6_CheckStatus",relay_6_CheckStatus);
+app.use("/switch001_relay_6_turnON",switch001_relay_6_ON_APIRouter);
+app.use("/switch001_relay_6_turnOFF",switch001_relay_6_OFF_APIRouter);  
+app.use("/switch001_relay_6_CheckStatus",switch001_relay_6_CheckStatus);
 
-app.use("/relay_7_turnON",relay_7_ON_APIRouter);
-app.use("/relay_7_turnOFF",relay_7_OFF_APIRouter);  
-app.use("/relay_7_CheckStatus",relay_7_CheckStatus);
+app.use("/switch001_relay_7_turnON",switch001_relay_7_ON_APIRouter);
+app.use("/switch001_relay_7_turnOFF",switch001_relay_7_OFF_APIRouter);  
+app.use("/switch001_relay_7_CheckStatus",switch001_relay_7_CheckStatus);
 
 
 
